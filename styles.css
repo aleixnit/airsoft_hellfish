@@ -339,7 +339,7 @@ font-size: clamp(1.5rem, 5vw, 5rem);
   justify-content: center;
 flex-direction: column;
 align-items: center;
-font-size: clamp(1.4rem, 4vw, 4rem);
+font-size: clamp(1.2rem, 4vw, 4rem);
 font-weight: 400;
 text-align:end;
 letter-spacing: 0.2em;
