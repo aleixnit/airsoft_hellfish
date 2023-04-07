@@ -314,3 +314,70 @@ section .bg .clip-text {
   width: 90vw;
   max-width: 1200px;
 }
+
+@media only screen and (max-width : 600px) {
+  h4 {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    font-weight: 900;
+  }
+
+  .tracking-in-expand2 {
+    color: rgb(255, 217, 0);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    font-weight: 900;
+}
+
+.intro-section3 {
+ margin-top: 95vw;
+font-size: clamp(1.5rem, 5vw, 5rem);
+
+}
+
+.intro-section2 {
+  display: flex;
+  justify-content: center;
+flex-direction: column;
+align-items: center;
+font-size: clamp(1.4rem, 4vw, 4rem);
+font-weight: 400;
+text-align:end;
+letter-spacing: 0.2em;
+color: hsla(0, 0%, 100%, 0.7);
+width: 90vw;
+max-width: 1200px;
+margin-top: 80vh;
+}
+
+.tracking-in-expand {
+  color: rgb(255, 0, 0);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  font-weight: 900;
+}
+
+.intro-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: clamp(1.3rem, 4vw, 4rem);
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: hsla(0, 0%, 100%, 0.7);
+  width: 90vw;
+  max-width: 1200px;
+}
+
+h2 {
+  font-size: clamp(1.5rem, 5vw, 5rem);
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 0.2em;
+  margin-right: -0.5em;
+  color: hsl(0, 0%, 100%);
+  width: 90vw;
+  max-width: 1200px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+  }
