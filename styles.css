@@ -96,6 +96,13 @@ section .bg .clip-text {
   overflow: hidden;
 }
 
+
+.header_right {
+  background-color: red;
+  padding: 3px;
+}
+
+
 /* .first .bg {
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%), url(https://pc-solucion.es/wp-content/uploads/2018/07/Bliss-fondo-pantalla-windows-xp-campo.jpg);
 } */
@@ -234,7 +241,8 @@ section .bg .clip-text {
 
 .logo {
   background-color: black;
-  padding: 4px;
+  padding: 9px;
+  padding-left: 9px;
 }
 
 .intro-section {
@@ -286,6 +294,23 @@ section .bg .clip-text {
   }
 }
 
+@keyframes roll-in-blurred-left {
+  0% {
+    -webkit-transform: translateX(-1000px) rotate(-720deg);
+            transform: translateX(-1000px) rotate(-720deg);
+    -webkit-filter: blur(50px);
+            filter: blur(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+
 .intro-section2 {
     display: flex;
     justify-content: center;
@@ -298,7 +323,7 @@ section .bg .clip-text {
   color: hsla(0, 0%, 100%, 0.7);
   width: 90vw;
   max-width: 1200px;
-  margin-top: 35vw;
+  margin-top: 25vw;
 }
 
 .intro-section3 {
@@ -313,6 +338,26 @@ section .bg .clip-text {
   color: hsla(164, 100%, 90%, 0.7);
   width: 90vw;
   max-width: 1200px;
+}
+
+.hover1 {
+  transition: color 0.5s ease;
+  text-decoration: none;
+  color: white;
+}
+
+.hover1:hover {
+  color: red;
+}
+
+.hover2 {
+  transition: color 0.5s ease;
+  text-decoration: none;
+  color: white;
+}
+
+.hover2:hover {
+  color:rgb(255, 217, 0);
 }
 
 @media only screen and (max-width : 600px) {
